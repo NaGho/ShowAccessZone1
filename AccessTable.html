@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css"> /* basic style */ 
+table{
+	border-collapse: collapse;
+}
+.DenyPart{
+}
+.splitDIVofoghi{
+	
+	overflow: hidden;
+}
+.splitDIVamoodi{
+ overflow: hidden;
+}
+.Mytbody {  
+  background-color: #ffe4c4;  
+  border: 1px solid black; 
+  border-collapse: collapse;
+  margin: 0px;
+  padding:0px;
+ }
+ .MyDiv{
+ 	background-color: green;
+	border: 0px;
+	border-collapse: collapse;
+	margin: 0px;
+ 	padding:0px;
+ 	overflow: hidden;
+ }
+  .Mytd{
+	background-color: green;
+	border:0px,0px,0px,0px;
+	border-collapse: collapse;
+	margin: 0px;
+ 	padding:0px;
+}
+.Mytr{
+	background-color: green;
+	border:0px,0px,0px,0px;
+	border-collapse: collapse;
+	margin: 0px;
+	padding:0px;  
+}
+.table-container {
+	top:20px;
+    position:relative;
+    height: 100%;
+    border: 1px solid red;
+    display: inline-block;
+    border-collapse: collapse;
+}
+th {
+	 margin: 0px;
+	 padding:0px;
+    border: 1px solid black;
+   border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0px;
+    padding:0px;
+    white-space: nowrap
+}
+.headcol{
+	top: 0px;
+	border-collapse: collapse;
+	position:absolute;
+	margin: 0px;
+    padding:0px;
+}
+.right {
+    overflow: auto;
+    position:absolute;
+    margin: 0px;
+    padding:0px;
+    top: 0px;
+}
+.selectStyle{
+  background-color: gray;  
+  border: 1px solid black; 
+  margin: 0;
+  padding:0;
+  position: relative;
+  top:10;
+  right:10;
+}
+.innerDivLeft{
+	float:left;
+	margin: 0px;
+    padding:0px;
+   transform: rotate(90deg);
+	transform-origin:-1% 160%;
+	vertical-align:middle;
+	text-align:center;
+	 -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:-20% 200%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:-1% 160%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:-1% 160%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+          
+}
+.afterZoomIn{
+}
+.innerDivRightofoghi{
+	float:right;
+	margin: 0px;
+    padding:0px;
+    transform: rotate(90deg);
+	 -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:20% 310%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:20% 200%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:40% 250%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+	vertical-align:middle;
+	text-align:center;	
+}
+.innerDivRightamoodi{
+	float:right;
+	margin: 0px;
+    padding:0px;
+    transform: rotate(90deg);
+     -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:27% 310%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:37% 270%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:70% 310%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+	vertical-align:middle;
+	text-align:center;	
+}
+
+.innerDivUp{
+	position:absolute;
+	top:0px;
+	width:inherit;
+	margin: 0px;
+    padding:0px;
+    text-align:center;
+}
+.innerDivDown{
+	position:absolute;
+	bottom:0px;
+	width:inherit;
+	margin: 0px;
+    padding:0px;
+    text-align:center;
+}
+.innerDivLeftAfterZoom{
+	float:left;
+	margin: 0px;
+    padding:0px;
+   transform: rotate(90deg);
+	transform-origin:-1% 160%;
+	vertical-align:middle;
+	text-align:center;
+	 -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:-20% 200%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:-1% 160%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:-1% 160%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+          
+}
+.innerDivRightofoghiAfterZoom{
+	float:right;
+	margin: 0px;
+    padding:0px;
+    transform: rotate(90deg);
+	 -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:20% 310%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:20% 200%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:40% 250%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+	vertical-align:middle;
+	text-align:center;	
+}
+.innerDivRightamoodiAfterZoom{
+	float:right;
+	margin: 0px;
+    padding:0px;
+    transform: rotate(90deg);
+     -moz-transform: rotate(90deg);  /* FF3.5+ */
+	 -moz-transform-origin:27% 310%;
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+       -o-transform-origin:37% 270%;
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+  -webkit-transform-origin:70% 310%;
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+	vertical-align:middle;
+	text-align:center;	
+}
+
+.innerDivUpAfterZoom{
+	position:absolute;
+	top:0px;
+	width:inherit;
+	margin: 0px;
+    padding:0px;
+    text-align:center;
+}
+.innerDivDownAfterZoom{
+	position:absolute;
+	bottom:0px;
+	width:inherit;
+	margin: 0px;
+    padding:0px;
+    text-align:center;
+}
+.outerDiv{
+	overflow : hidden;
+	position: relative;
+	width:inherit;
+	height:inherit;
+	margin: 0px;
+    padding:0px;
+}
+.TestZone {
+ margin: 0px;
+    padding:0px;
+    width:500px; 
+    height:500px; 
+    font-size:200%;
+    border: 1px solid blue;
+}
+.TestZone2 {
+	margin: 0px;
+    padding:0px;
+    border: 1px solid blue;
+ }
+</style>
+<head>
+	<title> Table of Access between physical ports</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+	
+	
+</head>
+<body>
+	<select id="pairsSelect1" class="selectStyle"> </select>
+	<select id="pairsSelect2" class="selectStyle"> </select>
+	<script type="text/javascript" src="AccessTable.js"></script>
+	
+		
+</body>
+</html>
